@@ -8,8 +8,8 @@ function App() {
     const [weatherFive, setWeatherFive] = useState({});
     const [city, setCity] = useState("");
     const [temp, setTemp] = useState('C');
-    const [five, setFive] = useState('false');
     const [photo, setPhoto] = useState('');
+    const [five, setFive] = useState('false');
 
 
     const getWeather = () => {
